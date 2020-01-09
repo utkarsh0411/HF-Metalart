@@ -8,6 +8,7 @@ var passportLocalMongoose = require('passport-local-mongoose');
 var methodOverride = require('method-override');
 
 var app = express();
+app.use( express.static( "public" ) );
 app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {
