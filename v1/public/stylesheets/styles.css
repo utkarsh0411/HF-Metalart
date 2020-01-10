@@ -1,3 +1,6 @@
+body{
+    background:#dcd3c9;
+}
 #top-image{
     height:100%;
     width:100%;
@@ -17,4 +20,11 @@
     color:white;
     padding-top:20%;
     text-align: center;
+}
+.info{
+    font-size: 1.3rem;
+}
+#about-info{
+    margin-top:100px;
+    margin-left:12%;
 }

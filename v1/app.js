@@ -8,13 +8,20 @@ var passportLocalMongoose = require('passport-local-mongoose');
 var methodOverride = require('method-override');
 
 var app = express();
-app.use( express.static( "public" ) );
+app.use(express.static("public"));
 app.set("view engine", "ejs");
 
+var change;
+
 app.get("/", function (req, res) {
-    res.render("landing");
+    change='/';
+    res.render("landing",{change:change});
 });
 
+app.get("/about", function (req, res) {
+    change='about'
+    res.render("about",{change:change})
+})
 app.listen(3000, function () {
     console.log("Server Listening...")
-})
+});
