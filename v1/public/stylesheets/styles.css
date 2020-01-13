@@ -9,7 +9,7 @@ body{
     color:white;
     font-size:1.5rem;
 }
-#top-text{
+.top-text{
     position: absolute;
     top: 0;
     left: 0;
@@ -21,10 +21,56 @@ body{
     padding-top:20%;
     text-align: center;
 }
-.info{
+.top-text-mission{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width:50%;
+    color:white;
+    padding-top:35%;
+    text-align: center;
+}
+#info{
     font-size: 1.3rem;
 }
-#about-info{
-    margin-top:100px;
+#info-partner{
+    font-size:1.3rem;
+}
+.row{
+    margin-top:10px;
     margin-left:12%;
+    margin-right:0px;
+}
+.vertical-nav {
+    height: 100vh;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    align-items: center;
+    padding-left: 0px;
+    padding-right:0px;
+}
+#about-text{
+      padding-left: 15%;
+  }
+.sub{
+      font-size: 2rem;
+  }
+#sub-item{
+    font-size:1.5rem
+}
+#test{
+    background-image: url("https://stillmed.olympic.org/media/Images/OlympicOrg/News/2019/07/24/Tokyo-medals/2019-07-24-medals-thumbnail.jpg");
+}
+.partner-img{
+    max-width:100%;
+    max-height:100%;
+}
+.mission-image{
+    max-width: 100%;
+    max-height: 100%;
 }

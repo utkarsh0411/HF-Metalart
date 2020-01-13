@@ -21,7 +21,8 @@ app.get("/", function (req, res) {
 app.get("/about", function (req, res) {
     change='about'
     res.render("about",{change:change})
-})
+});
+
 app.listen(3000, function () {
     console.log("Server Listening...")
 });
