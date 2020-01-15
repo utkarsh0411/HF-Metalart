@@ -22,7 +22,8 @@ app.get("/", function (req, res) {
 app.get("/about", function (req, res) {
     change='about'
     res.render("about",{change:change})
-})
-app.listen(port, function () {
-    console.log("Server Listening on port 3000...")
+});
+
+app.listen(3000, function () {
+    console.log("Server Listening...")
 });
