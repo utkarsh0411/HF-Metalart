@@ -1,9 +1,13 @@
-body{
+html,body{
     background:#dcd3c9;
+    height:100%;
 }
 #top-image{
     height:100%;
     width:100%;
+}
+#sidebar{
+    height:100%;
 }
 #white{
     color:white;
@@ -43,6 +47,7 @@ body{
     margin-top:10px;
     margin-left:12%;
     margin-right:0px;
+    height: 100%;
 }
 .vertical-nav {
     height: 100vh;

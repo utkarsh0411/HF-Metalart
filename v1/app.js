@@ -11,9 +11,16 @@ var app = express();
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
+var change;
+
 app.get("/", function (req, res) {
     change='/';
     res.render("landing",{change:change});
+});
+
+app.get("/about", function (req, res) {
+    change='about'
+    res.render("about",{change:change})
 });
 
 app.listen(3000, function () {
